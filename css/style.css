@@ -1,6 +1,7 @@
 @media (min-width: 320px) {
   .header-image {
     max-width: 100%;
+    display: flex;
   }
 }
 @media (min-width: 320px) {
