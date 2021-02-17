@@ -3,3 +3,9 @@
     max-width: 100%;
   }
 }
+@media (min-width: 320px) {
+  .nav-bar {
+    background-color: #99cccc;
+    display: flex;
+  }
+}
