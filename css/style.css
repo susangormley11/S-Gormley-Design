@@ -1,35 +1,8 @@
-@media (max-width: 320px) {
-  .header {
-    width: 100%;
-  }
-  .nav-bar {
-    background-color: #99cccc;
-    display: flex;
-  }
+.header {
+  width: 100%;
+  height: auto;
 }
-@media (max-width: 375px) {
-  .header {
-    width: 100%;
-  }
+
+.nav-bar {
+  background-color: #99cccc;
 }
-@media (max-width: 425px) {
-  .header {
-    width: 100%;
-  }
-}
-@media (max-width: 768px) {
-  .header {
-    width: 100%;
-  }
-}
-@media (max-width: 1024px) {
-  .header {
-    width: 100%;
-  }
-}
-@media (max-width: 1440px) {
-  .header {
-    width: 100%;
-  }
-}
-///
