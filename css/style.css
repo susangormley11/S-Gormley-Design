@@ -1,6 +1,24 @@
-.header {
+body {
+  min-width: 304px;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-img {
   width: 100%;
   height: auto;
+}
+header {
+  position: relative;
+  text-align: center;
+  color: #99cccc;
+  font-size: 221%;
+}
+.heading {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .nav-bar {
