@@ -39,10 +39,8 @@ header {
   color: #666666;
   font-size: 5vw;
 }
-
 .dropdown {
 }
-
 .dropdown-content {
   display: none;
   position: relative;
@@ -72,17 +70,19 @@ header {
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
-.profile-image {
-  width: 30%;
-  padding: 20px 10px;
-}
+
 .about-me-text {
   width: 30%;
   font-size: 2.6vw;
   display: inline-block;
-  padding-top: 0;
+  padding: 3.5vw;
 }
 .flower-image {
   width: 20%;
   float: right;
+}
+.profile-image {
+  width: 33%;
+  float: left;
+  padding: 3vw;
 }
