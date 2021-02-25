@@ -87,3 +87,27 @@ header {
   float: left;
   padding: 3vw;
 }
+.contact-form-image {
+  width: 100%;
+}
+.contact-form-blue {
+  width: 50%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -118%);
+}
+.contact-heading {
+  text-align: center;
+}
+.contact-form {
+  text-align: center;
+  width: 40%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 120%);
+  z-index: 1;
+}
+.input-box {
+  width: 100%;
+  margin: 5% 0 5% 0;
+}
