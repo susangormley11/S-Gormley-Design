@@ -128,7 +128,7 @@ header {
   transform-style: preserve-3d;
   top: 48%;
   left: 50%;
-  transform: translate(-50%, -70%);
+  transform: translate(-50%, -69%);
 }
 
 #slider label {
@@ -140,7 +140,7 @@ header {
   left: 0;
   right: 0;
   cursor: pointer;
-  transition: transform 0.4s ease;
+  transition: transform 0.6s ease;
 }
 
 #s1:checked ~ #slide4,
