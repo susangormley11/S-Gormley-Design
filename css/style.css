@@ -4,37 +4,31 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.header-img {
-  position: relative;
-  width: 100%;
-  height: auto;
-}
-
 header {
+  height: 52vw;
+  background-image: url("../images/rewebsitelayout/sgormleydesign-homepage-main.png");
+  background-size: 100%;
   position: relative;
-  text-align: center;
-  color: #99cccc;
-  font-size: 4.4vw;
 }
 .heading {
   position: absolute;
-  top: 48%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 46%;
+  left: 25%;
+
+  color: #99cccc;
+  font-size: 4.7vw;
 }
 .nav-bar {
   background-image: url("../images/rewebsitelayout/sgormleydesign-homepage-navigationbar.png");
   background-size: cover;
   text-align: right;
-  padding: 3% 0 2% 0;
-  position: relative;
-  margin-top: -8%;
 }
 .nav-heading {
   float: left;
   color: #666666;
   font-size: 3.65vw;
 }
+
 .fas {
   color: #666666;
   font-size: 5vw;
@@ -87,30 +81,6 @@ header {
   float: left;
   padding: 3vw;
 }
-.contact-form-image {
-  width: 100%;
-}
-.contact-form-blue {
-  width: 50%;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, -118%);
-}
-.contact-heading {
-  text-align: center;
-}
-.contact-form {
-  text-align: center;
-  width: 40%;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, 120%);
-  z-index: 1;
-}
-.input-box {
-  width: 100%;
-  margin: 5% 0 5% 0;
-}
 
 .slideshow-background {
   width: 100%;
@@ -124,9 +94,8 @@ header {
 #slider {
   height: 55vw;
   position: relative;
-  perspective: 1000px;
+  perspective: 2000px;
   transform-style: preserve-3d;
-  top: 48%;
   left: 50%;
   transform: translate(-50%, -69%);
 }
@@ -203,4 +172,36 @@ header {
 }
 #slide5 {
   background-image: url("../images/rewebsitelayout/sgormleydesign-homepage-profileimage.png");
+}
+
+.contact-form-image {
+  width: 99%;
+}
+.contact-form-blue {
+  width: 50%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -300%);
+}
+.contact-heading {
+  text-align: center;
+}
+.contact-form {
+  text-align: center;
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  transform: translate(40%);
+  z-index: 1;
+}
+.input-box {
+  width: 100%;
+  margin: 5% 0 5% 0;
+}
+.bottom-bar {
+  width: 100%;
+  position: relative;
+  left: 50%;
+  transform: translate(10%);
+  z-index: 1;
 }
