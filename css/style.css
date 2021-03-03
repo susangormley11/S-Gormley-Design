@@ -14,7 +14,6 @@ header {
   position: absolute;
   top: 46%;
   left: 25%;
-
   color: #99cccc;
   font-size: 4.7vw;
 }
@@ -22,16 +21,20 @@ header {
   background-image: url("../images/rewebsitelayout/sgormleydesign-homepage-navigationbar.png");
   background-size: cover;
   text-align: right;
+  height: 8vw;
+  margin-top: -1.5%;
 }
 .nav-heading {
   float: left;
   color: #666666;
   font-size: 3.65vw;
+  padding: 2.3%;
 }
 
 .fas {
   color: #666666;
   font-size: 5vw;
+  padding: 2.3%;
 }
 .dropdown {
 }
@@ -64,22 +67,25 @@ header {
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
-
-.about-me-text {
-  width: 33%;
-  font-size: 2.6vw;
-  display: inline-block;
-  padding: 3.5vw;
-  margin-top: 1%;
-}
-.flower-image {
-  width: 20%;
-  float: right;
+.about-me-section {
+  width: 100%;
+  display: flex;
 }
 .profile-image {
-  width: 33%;
-  float: left;
-  padding: 3vw;
+  flex-basis: 40%;
+  width: 28vw;
+  height: auto;
+  padding: 4vw;
+}
+.about-me-text {
+  flex-basis: 33%;
+  font-size: 1.1vw;
+  padding: 0 10vw 0 0;
+  margin-top: 12vw;
+}
+.flower-image {
+  width: 19vw;
+  height: auto;
 }
 
 .slideshow-background {
@@ -91,18 +97,22 @@ header {
   display: none;
 }
 
+.slider-section {
+  background-image: url("../images/rewebsitelayout/sgormleydesign-homepage-slideshowbackground.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 #slider {
-  height: 55vw;
+  height: 57vw;
   position: relative;
   perspective: 2000px;
   transform-style: preserve-3d;
-  left: 50%;
-  transform: translate(-50%, -69%);
+  transform: translate(0, 6%);
 }
 
 #slider label {
   margin: auto;
-  width: 60%;
+  width: 48%;
   height: 60%;
   border-radius: 4px;
   position: absolute;
@@ -158,8 +168,10 @@ header {
 }
 
 #slide1 {
-  background-image: url("../images/rewebsitelayout/sgormleydesign-homepage-profileimage.png");
-  background-size: cover;
+  background-image: url("../images/rewebsitelayout/sgormleydesign-arkadeproperty-flyer.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #slide2 {
   background-image: url("../images/rewebsitelayout/sgormleydesign-homepage-profileimage.png");
@@ -174,14 +186,13 @@ header {
   background-image: url("../images/rewebsitelayout/sgormleydesign-homepage-profileimage.png");
 }
 
-.contact-form-image {
-  width: 99%;
+.contact-form-section {
+  background-image: url("../images/rewebsitelayout/sgormleydesign-homepage-contactformbackgroundimage.png");
+  background-size: 100%;
 }
-.contact-form-blue {
+.contact-form {
+  background-image: url("../images/rewebsitelayout/sgormleydesign-homepage-contactformbackground.png");
   width: 50%;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, -300%);
 }
 .contact-heading {
   text-align: center;
@@ -189,10 +200,6 @@ header {
 .contact-form {
   text-align: center;
   width: 40%;
-  position: absolute;
-  left: 50%;
-  transform: translate(40%);
-  z-index: 1;
 }
 .input-box {
   width: 100%;
