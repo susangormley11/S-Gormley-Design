@@ -195,17 +195,37 @@ header {
 .contact-form {
   background-image: url("../images/rewebsitelayout/sgormleydesign-homepage-contactformbackground.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
-
   transform: translate(0, 6.5vw);
+  background-size: 40%;
 }
 .contact-heading {
   text-align: center;
   font-size: 3vw;
+  font: bolder;
 }
 
 .input-box {
   width: 50vw;
+  display: block;
+  margin: 2vw auto;
+  padding: 1vw;
+}
+.submit-button {
+  display: block;
   margin: 0 auto;
+  color: white;
+  background-color: #666666;
+  border-color: #666666;
+}
+footer {
+  background-image: url("../images/rewebsitelayout/sgormleydesign-homepage-bottombar.png");
+  background-size: 100%;
+}
+.bottom-logo {
+  width: 10%;
+}
+.github {
+  float: right;
 }
