@@ -212,6 +212,14 @@ header {
   margin: 2vw auto;
   padding: 0vw;
 }
+.input-box2 {
+  width: 40vw;
+  font-size: 1vw;
+  display: block;
+  margin: 2vw auto;
+  padding: 0vw;
+  height: 25px;
+}
 .submit-button {
   font-size: 1vw;
   display: block;
